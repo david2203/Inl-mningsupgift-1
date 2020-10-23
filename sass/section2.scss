@@ -1,0 +1,55 @@
+section{
+    height: 500px;
+    background-color: rgb(44, 43, 51);
+}
+#container2 {   
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+div#flex {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#phonetext {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+#p1 {
+    margin-bottom: 40px;
+}
+
+
+#phone2 {
+    height:1000px;
+}
+#container3 {
+    
+    position:relative;
+    height: vh;
+
+}
+
+#tip {
+    position:absolute;
+    font-size: 60px;
+    bottom:50%;
+    left:35%;
+}
+
+#tiptext {
+    position: absolute;
+    font-size:20px;
+    bottom: 23%;
+    left: 23%;
+}
+
+.overfooter {
+    width:100%;
+}
