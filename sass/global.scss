@@ -1,5 +1,20 @@
+
+// Global code som påvärkar hela hemsidans utseende//
+
+
+//reset hemsidans default padding och margin till 0 och tillägg av en ny font style
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Piazzolla', serif;
+    font-family: 'Antic Slab', serif;  
 }
+
+// responsiv fontsize 
+body {
+    width:100%;
+    
+    font-size: 2.7vw;
+}
+
+
+

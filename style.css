@@ -1,22 +1,24 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Piazzolla', serif; }
+  font-family: 'Antic Slab', serif; }
+
+body {
+  width: 100%;
+  font-size: 2.7vw; }
 
 #firstimage {
   width: 100%;
   position: absolute; }
 
 .top {
-  border: 2px solid red;
   position: relative;
-  height: 60vw;
   display: flex;
   flex-direction: column; }
 
 #h1 {
   align-self: center;
-  margin-top: 30px; }
+  margin-top: 4vw; }
 
 #firsttext, #heyguys {
   align-self: center;
@@ -30,18 +32,25 @@
   margin-left: 15%; }
 
 #container {
-  border: 2px solid green;
-  display: flex; }
+  height: 110vw;
+  display: flex;
+  justify-content: center; }
 
 #youbility {
-  align-self: center; }
+  align-self: center;
+  margin-left: 10%; }
+
+#youbility > p {
+  margin-top: 2%; }
+
+.mindre {
+  width: 50%; }
 
 #firstphone {
-  height: 500px; }
+  width: 50vw; }
 
-section {
-  height: 500px;
-  background-color: #2c2b33; }
+section > video {
+  width: 100%; }
 
 #container2 {
   display: flex;
@@ -57,55 +66,73 @@ div#flex {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  text-align: right;
+  margin-right: 3vw; }
 
 #p1 {
-  margin-bottom: 40px; }
+  margin-bottom: 5%; }
 
-#phone2 {
-  height: 1000px; }
+#margin {
+  margin-top: 5%; }
+
+#flex2 {
+  margin-right: 3vw;
+  margin-left: 3vw; }
 
 #container3 {
   position: relative;
-  height: vh; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 #tip {
   position: absolute;
-  font-size: 60px;
-  bottom: 50%;
-  left: 35%; }
+  margin-bottom: 10%; }
 
 #tiptext {
   position: absolute;
-  font-size: 20px;
-  bottom: 23%;
-  left: 23%; }
+  margin-top: 15%; }
 
 .overfooter {
   width: 100%; }
+
+.phone2 {
+  width: 50%; }
+
+#phone2 {
+  width: 50vw; }
 
 footer {
   position: absolute;
   background-color: #312e41;
   color: white;
-  height: 400px;
   width: 100%; }
 
 .flexcontainer {
   display: flex;
-  height: 400px;
+  height: 40vw;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly; }
 
 .divcontainer1 {
   display: flex;
-  height: 200px;
+  height: auto;
   flex-direction: column;
   justify-content: space-between; }
 
 .divcontainer2 {
   display: flex;
-  height: 100px;
+  height: auto;
   flex-direction: column;
   justify-content: space-around; }
+
+#footer2 {
+  margin-top: 1.5vw; }
+
+#footer4 {
+  margin-top: 1.5vw; }
+
+#footer1 {
+  margin-top: 2vw; }

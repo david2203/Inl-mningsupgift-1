@@ -1,9 +1,11 @@
+// main scss som samlar alla olika delar av scss som sedan ska convertas till css 
+
 @import "./global.scss" ;
 
-@import "./header.scss" ;
+@import "./partials/header.scss" ;
 
-@import "./section1.scss" ;
+@import "./partials/section1.scss" ;
 
-@import "./section2.scss" ;
+@import "./partials/section2.scss" ;
 
-@import "./footer.scss" ;
+@import "./partials/footer.scss" ;

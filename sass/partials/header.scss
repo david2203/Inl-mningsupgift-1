@@ -6,9 +6,7 @@
     
 }
 .top {
-    border: 2px solid red;
-    position: relative;
-    height: 60vw;
+    position: relative;  
     display:flex;
     flex-direction:column;
 }
@@ -16,11 +14,11 @@
 #h1 {
     
     align-self: center;
-    margin-top: 30px;  
+    margin-top: 4vw;  
 }
 
 #firsttext,#heyguys {
-    
+     
     align-self: center;
     z-index: 200;
     
@@ -35,3 +33,4 @@
     margin-top: 43%;
     margin-left: 15%;
 }
+
